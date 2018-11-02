@@ -38,6 +38,7 @@ services:
       - net-php72
       - net-mysql
       - net-redis
+
   mysql:
     image: mysql:8.0
     ports:
@@ -58,6 +59,8 @@ services:
       - net-redis
     ports:
       - "6379:6379"
+
+
 networks:
   net-php72:
   net-mysql:

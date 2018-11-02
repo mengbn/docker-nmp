@@ -17,3 +17,7 @@
 4. 进入镜像可以使用
 
 > docker attach
+
+5.多个镜像组合可以使用如下命令进行安装
+
+> docker-compose up
