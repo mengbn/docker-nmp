@@ -1,4 +1,4 @@
-# docker-nmp
+# docker 的所有镜像文件
 ---
 > 本内容适合在windows 环境下安装docker 并且构建完整的LNMP镜像，本镜像采用LNMP一键安装包 以及 Centos7.2 为系统 搭建
 
