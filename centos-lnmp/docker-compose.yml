@@ -26,3 +26,5 @@ services:
       - ./mysql/data:/var/lib/mysql:rw
     environment:
       - MYSQL_ROOT_PASSWORD=123123
+  php:
+    build: ./php
