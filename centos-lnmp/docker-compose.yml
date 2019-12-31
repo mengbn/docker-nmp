@@ -28,3 +28,7 @@ services:
       - MYSQL_ROOT_PASSWORD=123123
   php:
     build: ./php
+    volumes:
+      - ./www:/var/www
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./php/php-fpm.conf:/usr/local/etc/php-fpm.d/www.conf
