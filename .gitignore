@@ -2,3 +2,5 @@
 !.gitignore
 www/*
 !www/localhost/
+centos-lnmp/mysql/data/*
+centos-lnmp/redis/data/*
